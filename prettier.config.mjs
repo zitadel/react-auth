@@ -1,10 +1,8 @@
 export default {
   semi: true,
+  trailingComma: 'all',
   singleQuote: true,
-  jsxSingleQuote: true,
-  trailingComma: 'es5',
-  tabWidth: 2,
   printWidth: 80,
-  arrowParens: 'avoid',
-  endOfLine: 'lf',
+  tabWidth: 2,
+  useTabs: false,
 };
