@@ -81,9 +81,7 @@ export interface AuthProviderBaseProps {
  * @public
  */
 export interface AuthProviderNoUserManagerProps
-  extends AuthProviderBaseProps,
-    UserManagerSettings,
-    ZitadelScopeConfig {
+  extends AuthProviderBaseProps, UserManagerSettings, ZitadelScopeConfig {
   /**
    * Disallowed in this form — pass settings inline instead.
    */
